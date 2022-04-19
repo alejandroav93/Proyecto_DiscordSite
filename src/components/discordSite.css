@@ -1,0 +1,41 @@
+.mainpanel{
+    flex: 1;
+    height: 100%;
+    width: 100%;
+
+
+}
+.panel1{
+    height: 500px;
+    width: 100% ;
+    background-image: url("https://techcrunch.com/wp-content/uploads/2021/05/Discord_IAP_KeyVisuals_Header_02.jpeg");
+    background-color: #404eed;
+    background-repeat: no-repeat, no-repeat;
+
+}
+.panel2{
+    
+    height: 500px;
+    width: 100% ;
+    background-color: #ffffff;
+}
+.panel4{
+    height: 500px;
+    width: 100% ;
+    background-color: #ffffff;
+}
+.panel3{
+    height: 500px;
+    width: 100% ;
+    background-color: #f6f6f6;
+}
+.panel5{
+    height: 500px;
+    width: 100% ;
+    background-color: #f6f6f6;
+}
+.panel6{
+    height: 500px;
+    width: 100% ;
+    background-color: #23272a;
+}
