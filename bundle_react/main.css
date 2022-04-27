@@ -4,6 +4,7 @@
 html, body {
     margin:0px;
     height:100%;
+    width: fit-content;
   }
 
 .Site{
@@ -24,36 +25,127 @@ html, body {
 
 }
 .panel1{
-    height: 500px;
+    position: relative;
     width: 100% ;
-    background-image: url("https://techcrunch.com/wp-content/uploads/2021/05/Discord_IAP_KeyVisuals_Header_02.jpeg");
-    background-color: #404eed;
     background-repeat: no-repeat, no-repeat;
 
 }
-.panel2{
-    
+.subPanel2{
     height: 500px;
     width: 100% ;
     background-color: #ffffff;
 }
-.panel4{
+
+
+.panel2{
     height: 500px;
-    width: 100% ;
+    position: relative;
+    width: 100%; 
+    overflow: hidden;
+}
+.panel4{
     background-color: #ffffff;
 }
 .panel3{
-    height: 500px;
-    width: 100% ;
-    background-color: #f6f6f6;
+    margin-left: 300px;
+    width: 600px; 
+    float: left;
+    background-color: #ffffff;
 }
 .panel5{
     height: 500px;
-    width: 100% ;
+    width: 100%; 
+    overflow: hidden;
     background-color: #f6f6f6;
 }
 .panel6{
-    height: 500px;
-    width: 100% ;
-    background-color: #23272a;
+    margin-right: 500px;
+    width: 600px; 
+    float: right;
+}
+.panel7{
+
+    background-color: #f6f6f6;
+}
+.btn{
+    position:absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    color: #5865f4;
+    font-size: 16px;
+    padding: 12px 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+
+}
+.btn2{
+    position:absolute;
+    top: 60%;
+    right: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #36393e;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 12px 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+
+}
+
+.link{
+    text-decoration: none;
+}
+
+.subText1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+}
+.subText3{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    font-size: 22x;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+}
+.subText4{
+    top: 10%;
+    font-size: 45px;
+    text-align: center;
+    
+}
+
+.subText5{
+    top: 20%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.subText6{
+    top: 10%;
+    font-size: 45px;
+    text-align: center;
+    
+}
+
+.subText7{
+    top: 20%;
+    text-align: center;
+    font-size: 25px;
 }
