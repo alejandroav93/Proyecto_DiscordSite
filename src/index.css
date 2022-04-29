@@ -2,9 +2,14 @@ html, body {
     margin:0px;
     height:100%;
     width: fit-content;
+    font-family: uni-Sans;
   }
-
+@font-face {
+  font-family: uni-Sans;
+  src: url(./components/font/uniSans.woff);
+}
 .Site{
+  
   position:absolute;
   top:0px;
   right:0px;
