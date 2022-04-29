@@ -1,6 +1,6 @@
 Proyecto_DiscordSite:
 Discord site replica attempt implementing:
-*HTML
+*HTML index
 *JavaScript
 *CSS
 *React
